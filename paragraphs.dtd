@@ -1,4 +1,4 @@
 <!DOCTYPE TEXT [
 <ELEMENT Text(text)>
-<ELEMENT text>
+<ELEMENT text(#PCDATA)>
 ]>
