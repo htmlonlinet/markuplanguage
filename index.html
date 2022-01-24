@@ -8,4 +8,7 @@
  <text>Hello World!</text>
 </Text>
 <page href="index.html">index</page>
-<script src="code.js">document.body.onload = includeCookies();</script>
+<script src="code.js">document.body.onload = includeCookies();
+if(getCookie("cookie")){
+  alert("bob");
+}else{alert("job");}</script>
