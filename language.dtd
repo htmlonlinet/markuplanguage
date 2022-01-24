@@ -1,0 +1,4 @@
+<!DOCTYPE MESSAGE [
+<!ELEMENT Message(message)>
+<!ELEMENT message (#PCDATA)>
+]>
