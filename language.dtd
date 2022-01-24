@@ -2,4 +2,5 @@
 <!ELEMENT Header(header)>
 <!ELEMENT header (#PCDATA)>
 <!ATTLIST header id CDATA #REQUIRED>
+<!ENTITY % Script "CDATA" -- script expression -->
 ]>
