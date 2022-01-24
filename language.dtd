@@ -1,8 +1,8 @@
 <!DOCTYPE HEADER [
 <!ELEMENT Header(header)>
 <!ELEMENT header (#PCDATA)>
-<!ELEMENT SCRIPT - - CDATA      -- script statements -->
-<!ATTLIST SCRIPT
+<!ELEMENT JS - - CDATA      -- script statements -->
+<!ATTLIST JS
   type        CDATA      #IMPLIED  -- Internet content type for
                                       script language --
   language    CDATA      #IMPLIED  -- predefined script language name --
