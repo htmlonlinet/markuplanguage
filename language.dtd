@@ -1,4 +1,5 @@
-<!DOCTYPE MESSAGE [
-<!ELEMENT Message(message)>
-<!ELEMENT message (#PCDATA)>
+<!DOCTYPE HEADER [
+<!ELEMENT Header(header)>
+<!ELEMENT header (#PCDATA)>
+<!ATTLIST header id CDATA #REQUIRED>
 ]>
