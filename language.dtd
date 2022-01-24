@@ -9,4 +9,14 @@
   src         %URL       #IMPLIED  -- URL for an external script --
   >
 <!ATTLIST header id CDATA #REQUIRED>
+<!ELEMENT PAGE - O EMPTY>
+<!ATTLIST PAGE
+  %attrs;                          -- %coreattrs, %i18n, %events --
+  href        %URL       #IMPLIED  -- URL for linked resource --
+  rel         CDATA      #IMPLIED  -- forward link types --
+  rev         CDATA      #IMPLIED  -- reverse link types --
+  type    %ContentType  #IMPLIED  -- advisory Internet content type --
+  media       CDATA      #IMPLIED  -- for rendering on these media --
+  target      CDATA      #IMPLIED  -- where to render linked resource --
+  >
 ]>
