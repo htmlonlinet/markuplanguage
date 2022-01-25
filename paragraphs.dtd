@@ -1,4 +1,6 @@
 <!DOCTYPE TEXT [
 <ELEMENT Text(text)>
 <ELEMENT text(#PCDATA)>
+<ATTLIST Text id CDATA #REQUIRED>
+<ATTLIST text id CDATA #REQUIRED>
 ]>
